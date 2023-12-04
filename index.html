@@ -15,28 +15,33 @@
     <title>DevClub - Convert Money</title>
   </head>
   <body>
+    <div2 class="banner">
+      <video autoplay muted loop>
+        <source src="./assents/fundoconversor.mp4.mp4" type="video/mp4" />
+      </video>
+    </div2>
     <img
-      src="./assents/logo.gif"
+      src="./assents/notasvoando.gif.gif"
       alt="logo-devclub-convert-money"
-      class="logo"
-    />
-
+      class="logo"/>
     <main>
       <label>
-        Converter <b>de</b>
+        Converter <b>de:</b>
         <select>
           <option>R$ Dólar Brasileiro</option>
         </select>
       </label>
       <label>
-        Converter <b>para</b>
+        Converter <b>para:</b>
         <select class="currency-select">
           <option value="dolar">US$ Dólar americano</option>
           <option value="euro">€ Euro</option>
+          <option value="libra">£ Libra</option>
+          <option value="bitcoin">₿ Bitcoin</option>
         </select>
       </label>
       <label>
-        <b>Valor</b>
+        <b>Valor:</b>
         <input type="number" class="input-currency" placeholder="R$10.000,00" />
       </label>
       <button class="convert-button">Converter</button>
@@ -52,7 +57,11 @@
         </div>
         <img src="./assents/Vector.png" alt="seta" />
         <div class="currency-box">
-          <img class="currency-img" src="./assents/USA.png" alt="logo-moeda-convertida" />
+          <img
+            class="currency-img"
+            src="./assents/USA.png"
+            alt="logo-moeda-convertida"
+          />
           <p class="currency" id="currency-name">Dólar americano</p>
           <p class="currency-value">US$ 0.0</p>
         </div>
