@@ -82,7 +82,7 @@ button {
   cursor: pointer;
 }
 
-.button-nav {
+.button-nav  {
   background: #adff00;
   border-radius: 30px;
   width: 239px;
@@ -96,6 +96,9 @@ button {
   color: #ffffff;
   display: inline-block;
   margin: 30px 5px 0px 30px;
+}
+nav {
+	margin: 30px 0px 20px 770px;
 }
 
 button:hover {
