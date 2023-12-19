@@ -10,12 +10,12 @@
 /*Aguardando lugar no projeto*/
 
 body {
-  background-color:#000000
+  background-color: #000000;
 }
 
 .button-nav {
   background: #2f00ff;
-  background-color: #6959CD ;
+  background-color: #6959cd;
   border-radius: 50px; /*ARREDONDAR BORDAS*/
   width: 239px; /*DIMENSÃO DO TEXTO*/
   height: 64px; /*LARGURA*/
@@ -44,18 +44,19 @@ h1 {
   border-radius: 30px; /*ARREDONDAR BORDAS*/
   width: 939px; /*DIMENSÃO DO TEXTO*/
   filter: drop-shadow(1px 7px 4px rgba(255, 255, 255, 0.25));
-  color: #6959CD;
+  color: #6959cd;
   font-weight: 700; /*ESPESSURA DA FONTE*/
   font-size: 78px; /*TAMANHO DAS LETRAS*/
   margin: 40px auto 40px; /*POSICIONAMENTO*/
   cursor: pointer; /*MODELO DO MAUSE "POITER - MÃOZINHA"*/
 }
 
-h2 { /*INATIVO POR ENQUANTO.*/
+h2 {
+  /*INATIVO POR ENQUANTO.*/
   margin: 30px 0px 20px 915px; /*POSICIONAMENTO*/
   font-weight: 700; /*ESPESSURA DA FONTE*/
   font-size: 78px; /*TAMANHO DAS LETRAS*/
-  color: #6959CD;
+  color: #6959cd;
 }
 
 h3 {
@@ -70,15 +71,14 @@ p {
   margin: 10px 0px 20px 15px; /*POSICIONAMENTO*/
   font-weight: 700; /*ESPESSURA DA FONTE*/
   font-size: 78px; /*TAMANHO DAS LETRAS*/
-  color: #6959CD;
-
+  color: #6959cd;
 }
 
 section {
   width: 100%vh; /*AUTURA*/
   height: 100%vw; /*LARGURA*/
   position: relative; /*POSICIONAR O ELEMENTO*/
-  background-color: #DCDCDC; /*COR DE FUNDO DE UM ELEMENTO*/
+  background-color: #dcdcdc; /*COR DE FUNDO DE UM ELEMENTO*/
   padding: 20px; /*EXPASSAMENTO INTERNO*/
   text-align: -webkit-center; /*CENTRALIZAR TEXTO E IMG*/
   margin: 20px auto;
@@ -103,11 +103,11 @@ input {
   border-bottom-style: solid;
   text-align: center;
 }
-  /*PROJETO EM ANDAMENTO*/
+/*PROJETO EM ANDAMENTO*/
 
-  /*O QUE FAZER AGORA: CONCLUIR POSICIONAMENTO DAS FOTOS - PRIORIDADE
+/*O QUE FAZER AGORA: CONCLUIR POSICIONAMENTO DAS FOTOS - PRIORIDADE
   */
-	/*TEM QUE CONCLUIR A CAIXA QUE VAI FICAR MINHA DIV IMPUT
+/*TEM QUE CONCLUIR A CAIXA QUE VAI FICAR MINHA DIV IMPUT
 	        */
 footer {
   color: #ffffff;
