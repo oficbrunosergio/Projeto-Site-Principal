@@ -32,12 +32,14 @@ body {
 
 nav {
   margin: 20px 1700px 0px;
+  position: fixed;
 }
 
 .fundo-processo {
   display: inline-block;
   width: auto;
   height: 925px;
+  margin: 300px 0px 0px 0px;
 }
 
 h1 {
@@ -77,7 +79,7 @@ p {
 section {
   width: 100%vh; /*AUTURA*/
   height: 100%vw; /*LARGURA*/
-  position: relative; /*POSICIONAR O ELEMENTO*/
+  position: static; /*POSICIONAR O ELEMENTO*/
   background-color: #dcdcdc; /*COR DE FUNDO DE UM ELEMENTO*/
   padding: 20px; /*EXPASSAMENTO INTERNO*/
   text-align: -webkit-center; /*CENTRALIZAR TEXTO E IMG*/
