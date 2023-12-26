@@ -1,27 +1,32 @@
-/*JS PARA TESTE DE COMPONENTES*/
 
-var activeOffset = $('nav ul .active').position().left;
-var activeItemWidth = $('nav ul .active').width();
-
-$('document').ready(function(){
-	$('.dot').css('left', activeOffset + activeItemWidth / 2);
-	var bgColor = $('.active a').css("background-color");
-	$('.dot').css('background-color', bgColor);
-});
-
-$('nav').mouseout(function(){
-	$('.dot').css('left', activeOffset + activeItemWidth / 2);
-	var bgColor = $('.active a').css("background-color");
-	$('.dot').css('background-color', bgColor);
-});
-
-$('nav ul li').hover(function(){
-	var navOffset = $(this).position().left;
-	var navItemWidth = $(this).width();
-	
-	$('.dot').css('left', navOffset + navItemWidth / 2);
-	
-	var bgColor = $('a', this).css("background-color");
-	
-	$('.dot').css('background-color', bgColor);
-});
+const users = [
+    {
+      name: "Bruno",
+      age: 31,
+      address: "Rua Juripiranga",
+      nomeDoConjuge: "Ly",
+      id: null,
+    },
+    {
+      name: "Ly",
+      age: 28,
+      address: "Rua Juripiranga",
+      nomeDoConjuge: "Bruno",
+      id: null,
+    },
+  ];
+  
+  const input = document.querySelector("#main-input")
+  
+  function digiteiNoInput(){
+     console.log(input.value)
+   }
+  
+  
+  function cliqueiNoBotao(){
+    console.log("Botão CLicado com Sucesso!")
+  }
+  
+  
+  console.log(users[0]);
+  
