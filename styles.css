@@ -16,32 +16,40 @@ body {
   background-color: #000000;
 }
 
-.button-nav {
-  background: #2f00ff;
-  background-color: #6959cd;
-  border-radius: 50px; /*ARREDONDAR BORDAS*/
-  width: 239px; /*DIMENSÃO DO TEXTO*/
-  height: 64px; /*LARGURA*/
-  border: none; /*BORDAS*/
-  cursor: pointer; /*MODELO DO MAUSE "POITER - MÃOZINHA"*/
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  font-weight: 700; /*ESPESSURA DA FONTE*/
-  font-size: 88px; /*TAMANHO DAS LETRAS*/
-  font-weight: 34px; /*ESPESSURA DA FONTE*/
-  color: #ffffff; /*COR*/
-  display: inline-block; /*ORGANIZAR ELEMENTOS NA PAGINA*/
-  margin: 30px auto 30px 150px; /*POSICIONAMENTO PRO LADO DE FORA*/
+nav{
+  margin: 35px 0px 20px 1100px;
+  position:static;
 }
 
-nav {
-  margin: 20px 1700px 0px;
+.link-nav {
+font-weight: 600;
+font-size: 64px;
+line-height: 99px;
+color: #ffffff;
+cursor: pointer;
+margin-right: 53px;
+padding: 20px 20px 20px 25px;
+}
+
+.button-nav {
+background: #665ae1;
+filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
+border-radius: 55.5px;
+width: 290px;
+height: 100px;
+border: none;
+font-weight: 600;
+font-size: 54px;
+line-height: 29px;
+color: #ffffff;
+cursor: pointer;
 }
 
 .fundo-processo {
   display: inline-block;
   width: auto;
-  height: 925px;
-  margin: 300px 0px 0px 0px; /*POSICIONAMENTO PRO LADO DE FORA*/
+  height: 700px;
+  margin: 20px 0px 0px 0px; /*POSICIONAMENTO PRO LADO DE FORA*/
 }
 
 h1 {
@@ -68,21 +76,23 @@ h3 {
   font-weight: 500; /*ESPESSURA DA FONTE*/
   margin: 10px 0px 10px 10px; /*POSICIONAMENTO PRO LADO DE FORA*/
   font-size: 39px; /*TAMANHO DAS LETRAS*/
-  color: #000000; /*COR*/
+  color: #DCDCDC; /*COR*/
 }
 
 .tema-texto-h3 {
   margin: 10px 0px 20px 15px; /*POSICIONAMENTO PRO LADO DE FORA*/
-  font-weight: 700; /*ESPESSURA DA FONTE*/
+  font-weight: 400; /*ESPESSURA DA FONTE*/
   font-size: 78px; /*TAMANHO DAS LETRAS*/
-  color: #6959cd;
+  color: #ffffff;
 }
 
 section {
   width: 100%vh; /*AUTURA*/
   height: 100%vw; /*LARGURA*/
-  position: absolute; /*POSICIONAR O ELEMENTO*/
-  background-color: #dcdcdc; /*COR DE FUNDO DE UM ELEMENTO*/
+  font-weight: 700; /*ESPESSURA DA FONTE*/
+  font-size: 58px; /*TAMANHO DAS LETRAS*/
+  font-weight: 34px; /*ESPESSURA DA FONTE*/
+  background-color: #1C1C1C; /*COR DE FUNDO DE UM ELEMENTO*/
   padding: 20px; /*EXPASSAMENTO INTERNO*/
   /*text-align: - CENTRALIZAR TEXTO E IMG*/
   margin: 50px 80px; /*POSICIONAMENTO PRO LADO DE FORA*/
@@ -101,111 +111,6 @@ p {
   font-weight: 200; /*ESPESSURA DA FONTE*/
   font-size: 58px; /*TAMANHO DAS LETRAS*/
   color: #6959cd;
-  
-}
-
-.projeto-instagram {
-  background-color: #FFDEAD;
-  width: 100vw;
-  height: 100vh;
-  width: 2400px;
-  height: 2165px;
-  margin: 50px 0px 0px 1200px; /*POSICIONAMENTO PRO LADO DE FORA*/
-  display: flex;
-  padding: auto; /*POSICIONAMENTO PRO LADO DE DENTRO*/
-  
-}
-
-.button-entrar {
-  background-color: #0095f6;
-  width: 733px;
-  height: 78px;
-  border: none;
-  border-radius: 3px;
-  margin: 20px 40px 0px 410px; /*POSICIONAMENTO PRO LADO DE FORA*/
-  font-size: 100%;
-  color: #ffffff;
-  padding: 5px; /*POSICIONAMENTO PRO LADO DE DENTRO*/
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-  font-size: 53px;
-  
-}
-
-.insta-logo {
-  margin: 20px 0px 20px 390px;
-  width: 50%;
-  
-}
-
-.login-facebook {
-  color: #385183;
-  font-weight: bold; /*NEGRITO*/
-  text-align: center; /*ALINHAMENTO DO TEXTO (SÓ PARA TEXTOS)*/
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 50px; /*TAMANHO DAS LETRAS*/
-  cursor: pointer;
-}
-
-.esqueceu-senha {
-  color: #385183;
-  text-align: center;
-  font-size: 50px;
-  height: 30px;
-  font-weight: normal;
-  cursor: pointer;
-  
-}
-
-.tema-box {
-  position: absolute;
-  margin: 12px auto 5px 950px;
-  
-}
-
-.container-inf {
-  background-color: #FAFAFA;
-  margin: 100px 10px 25px 30px; /*POSICIONAMENTO PRO LADO DE FORA*/
-  justify-content: center;
-  padding: auto; /*POSICIONAMENTO PRO LADO DE DENTRO*/
-}
-
-.container-itens {
-
-}
-
-.container-form {
-  background-color: #ffffff;
-  margin: 100px 10px; /*POSICIONAMENTO PRO LADO DE FORA*/
-  justify-content: center;
-  border: 1px solid #dbdbdb;
-  padding: 50px; /*POSICIONAMENTO PRO LADO DE DENTRO*/
-  align-items: center;
-  
-
-}
-
-.img-celular {
-  background-color: #FAFAFA;
-  margin: 100px 10px;
-}
-
-
-
-input {
-  padding-left: 25px;
-  outline: none;
-  border: 1px solid #dbdbdb;
-  border-radius: 3px;
-  margin: 20px 410px; /*POSICIONAMENTO PRO LADO DE FORA*/
-  width: 733px;
-  height: 78px;
-  text-align:justify;
-  font-weight: 400; /*ESPESSURA DA FONTE*/
-  font-size: 38px; /*TAMANHO DAS LETRAS*/
-  color: #262626;
   
 }
 /*PROJETO EM ANDAMENTO*/

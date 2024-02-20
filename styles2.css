@@ -1,195 +1,186 @@
 /*PROJETO I'M*/
 * {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+header {
+  margin: 44px 0 144px 76px;
+}
 
-    header {
-        margin: 44px 0 144px 76px;
-        
-        
+.button {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  color: #adff00;
+  display: inline;
+}
+
+nav{
+    margin: 35px 0px 20px 90px;
+    position:static;
+}
+
+.link-nav {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 99px;
+  color: #989d9c;
+  cursor: pointer;
+  margin-right: 53px;
+  padding: 20px 20px 20px 25px;
+}
+.button-nav {
+  background: #665ae1;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 29.5px;
+  width: 230px;
+  height: 61px;
+  border: none;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 29px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.container-inf {
+    margin: 50px;
+}
+
+.imagem-rio {
+  width: 55vh;
+  height: 35vw;
+  position: fixed;
+  margin: 0 0 0 0;
+}
+
+.logo-image {
+  width: 555px;
+  height: 755px;
+  position: fixed;
+  margin: 0px 0 0 780px;
+}
+
+section {
+  display: inline-block;
+  margin-left: 86px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  color: #515151;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 55px;
+  color: #adff00;
+}
+
+p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #848484;
+  width: 515px;
+  margin-top: 32px;
+  margin-bottom: 65px;
+}
+
+.button-main {
+  background: #adff00;
+  border-radius: 30px;
+  width: 239px;
+  height: 64px;
+  border: none;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-weight: 700;
+  font-size: 28px;
+  font-weight: 34px;
+  color: #000000;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1362px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .div {
+    width: 390px;
+    height: 342px;
+    display: block;
+  }
+
+  .link-header {
+    display: none;
+  }
+
+  .logo-image {
+    position: static;
+    width: 255px;
+    height: 375px;
+    margin-left: 450px;
+    position: absolute;
+    margin: 680px 0 0 259px;
+  }
+  header {
+    margin: 44px 0 1px 18px;
+    position: fixed;
+    display: inline-grid;
+  }
+  .link-header {
+    display: inline-block;
+    margin: 0 0 43px 0;
+  }
+  .section {
+    width: 100px;
+    height: 100px;
+    padding-left: 80px;
+    margin-left: 89px;
+    margin: 0 0 0 11px;
+  }
+
+  .button-main {
+    margin: 0px 10px 0 1%;
+    position: fixed;
+  }
+
+  h2 {
+    color: #858585;
+    margin-left: 120px;
+  }
+  .segundo-tex {
+    font-size: 25px;
+  }
+  p {
+    color: #adff00;
+    width: 350px;
+    margin-left: 120px;
+    box-sizing: border-box;
+  }
+  h1 {
+    margin-left: 120px;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 100px;
+    color: #adff00;
+    display: inline-block;
+    .diferencial {
+      color: #848484;
+      font-size: 50px;
     }
-    .button {
-        font-weight: 900;
-        font-size: 100px;
-        line-height: 122px;
-        color: #adff00;
-        display: inline;
-        
-    }
-    .link-header {
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        color: #989d9c;
-        cursor: pointer;
-        margin-right: 23px;
-       
-        
-    }
-    .button-header {
-        background: #665ae1;
-        border-radius: 20.5px;
-        width: 130px;
-        height: 41px;
-        border: none;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        color: #ffffff;
-        cursor: pointer;
-
-
-    }
-    
-    .imagem-rio {
-        width: 55vh;
-        height: 35vw;
-        position: fixed;
-        margin: 0 0 0 0;
-    }
-
-    .logo-image {
-        width: 555px;
-        height: 755px;
-        position: fixed;
-        margin: 0px 0 0 780px
-        
-        
-    }
-
-    section {
-        display: inline-block;
-        margin-left: 86px;
-    }
-
-    h1 {
-        font-weight: 900;
-        font-size: 100px;
-        line-height: 122px;
-        color: #515151; 
-         
-    }
-
-    h2 {
-        font-weight: 500;
-        font-size: 47px;
-        line-height: 55px;
-        color: #adff00;
-    }
-
-    p {
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 29px;
-        color: #848484;
-        width: 515px;
-        margin-top: 32px;
-        margin-bottom: 65px;
-    }
-
-    .button-main {
-        background: #adff00;
-        border-radius: 30px;
-        width: 239px;
-        height: 64px;
-        border: none;
-        cursor: pointer;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        font-weight: 700;
-        font-size: 28px;
-        font-weight: 34px;
-        color: #000000;
-        display: inline-block;
-    }
-    
-    @media screen and (max-width: 1362px) {
-        * {
-            box-sizing: border-box;
-            
-            }
-        
-        .div {
-            width: 390PX;
-            height: 342PX;
-            display: block;
-        }
-
-        .link-header {
-            display: none;
-
-        }
-      
-        .logo-image {
-            position: static;
-            width: 255px;
-            height: 375px;
-            margin-left: 450px;
-            position: absolute;
-            margin: 680px 0 0 259px;
-            
-        }
-        header {
-            margin: 44px 0 1px 18px;
-            position: fixed;
-            display: inline-grid;
-
-        }
-        .link-header {
-            display: inline-block;
-            margin: 0 0 43px 0
-        }
-        .section {
-            width: 100px;
-            height: 100px;
-            padding-left: 80px;
-            margin-left: 89px;
-            margin: 0 0 0 11px;
-            
-        }
-
-        .button-main {
-            margin: 0px 10px 0 1%;
-            position: fixed;
-        }
-        
-      
-        
-        h2 {
-            color: #858585;
-            margin-left: 120px;
-                      
-        }
-        .segundo-tex {
-            font-size: 25px;
-            
-        }
-        p {        
-            color: #adff00;
-            width: 350px;
-            margin-left: 120px;
-            box-sizing: border-box;
-        }
-        h1 {
-            margin-left: 120px;
-            font-weight: 800;
-            font-size: 100px;
-            line-height: 100px;
-            color: #adff00;
-            display: inline-block;
-            .diferencial {
-                color: #848484;
-                font-size: 50px;
-            }
-        }
-        .imagem-rio {
-            width: 67vh;
-            height: 105vw;
-            margin: 0px 0 0 0;
-
-
-        }
-    }
+  }
+  .imagem-rio {
+    width: 67vh;
+    height: 105vw;
+    margin: 0px 0 0 0;
+  }
+}

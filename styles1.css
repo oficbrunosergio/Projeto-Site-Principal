@@ -83,19 +83,20 @@ button {
 }
 
 .button-nav  {
-  background: #adff00;
-  border-radius: 30px;
-  width: 239px;
-  height: 64px;
-  border: none;
-  cursor: pointer;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  font-weight: 700;
-  font-size: 28px;
-  font-weight: 34px;
-  color: #ffffff;
-  display: inline-block;
-  margin: 30px 5px 0px 30px;
+    background: #2f00ff;
+    background-color: #6959cd;
+    border-radius: 50px; /*ARREDONDAR BORDAS*/
+    width: 439px; /*DIMENSÃO DO TEXTO*/
+    height: 94px; /*LARGURA*/
+    border: none; /*BORDAS*/
+    cursor: pointer; /*MODELO DO MAUSE "POITER - MÃOZINHA"*/
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700; /*ESPESSURA DA FONTE*/
+    font-size: 58px; /*TAMANHO DAS LETRAS*/
+    font-weight: 34px; /*ESPESSURA DA FONTE*/
+    color: #ffffff; /*COR*/
+    display: inline-block; /*ORGANIZAR ELEMENTOS NA PAGINA*/
+    margin: 30px auto 30px 150px; /*POSICIONAMENTO PRO LADO DE FORA*/
 }
 nav {
 	margin: 30px 0px 20px 770px;
