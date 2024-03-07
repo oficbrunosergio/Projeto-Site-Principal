@@ -17,8 +17,8 @@ body {
 }
 
 nav{
-  margin: 35px 0px 20px 1100px;
-  position:static;
+  margin: 35px 0px 0px 1100px;
+  position:relative
 }
 
 .link-nav {
@@ -45,10 +45,10 @@ color: #ffffff;
 cursor: pointer;
 }
 
-.fundo-processo {
+.fundo-superacao {
   display: inline-block;
   width: auto;
-  height: 700px;
+  height: 685px;
   margin: 20px 0px 0px 0px; /*POSICIONAMENTO PRO LADO DE FORA*/
 }
 
@@ -72,27 +72,71 @@ h2 {
 }
 
 h3 {
-  width: 1000px; /*DIMENSÃO DO TEXTO*/
-  font-weight: 500; /*ESPESSURA DA FONTE*/
-  margin: 10px 0px 10px 10px; /*POSICIONAMENTO PRO LADO DE FORA*/
+  width: 1700px; /*DIMENSÃO DO TEXTO*/
+  font-weight: 400; /*ESPESSURA DA FONTE*/
+  font-style: italic;
+  margin: 0px 0px 10px 10px; /*POSICIONAMENTO PRO LADO DE FORA*/
   font-size: 39px; /*TAMANHO DAS LETRAS*/
   color: #DCDCDC; /*COR*/
-
+  font-size: 75px; /*TAMANHO DAS LETRAS*/
+  text-align: left;  
 }
 
-.tema-texto-h3 {
-  margin: 10px 0px 20px 15px; /*POSICIONAMENTO PRO LADO DE FORA*/
-  font-weight: 400; /*ESPESSURA DA FONTE*/
-  font-size: 78px; /*TAMANHO DAS LETRAS*/
+.opoderdaprogramacao {
+  position:relative;
+  width: 2050px; /*DIMENSÃO DO TEXTO*/
+  font-weight: 700; /*ESPESSURA DA FONTE*/
+  font-size: 3em; /*TAMANHO DAS LETRAS*/
+  color: #000000;
+  margin: 0px 0px 59px 500px;
+}
+
+.opoderdaprogramacao::before {
+  content:attr(data-text);
+  position: absolute;
   color: #ffffff;
+  width: 260px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2.5px solid #ffffff;
+  animation: animarElemento 5s linear infinite;
+  filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 15px #fff3);
+  
+}
+
+@keyframes animarElemento {
+  0%,10%,100%{
+      width: 0;
+  }
+  70%,90% {
+    width: 100%;
+  }
 }
 
 .conteiner-one {
   background-color: #665ae1;
-  width: 3540px;
+  width: 3540px; /*DIMENSÃO DO TEXTO*/
   height: 2130px;
   text-align: center;
+  padding: 50px;
 
+}
+
+.main-text {
+  display: inline-block;
+  position:relative;
+  width: 500px; /*DIMENSÃO DO TEXTO*/
+  padding: 90px;
+}
+
+.main-phone {
+  display: inline-block;
+}
+
+.foto-perfil  {
+  width: 1150px; /*DIMENSÃO DO TEXTO*/
+  margin: 50px 0px 0px 1400px;
+  position:relative;
 }
 
 section {
@@ -105,14 +149,6 @@ section {
   padding: 20px; /*EXPASSAMENTO INTERNO*/
   /*text-align: - CENTRALIZAR TEXTO E IMG*/
   margin: 50px 80px; /*POSICIONAMENTO PRO LADO DE FORA*/
-}
-
-.foto-perfil {
-  width: 1200px;
-  margin: 0px 0px 0px 2000px;
-  position: relative;
-
-
 }
 
 .tema-box {
