@@ -17,12 +17,12 @@ body {
 }
 
 nav{
-  margin: 35px 0px 0px 1100px;
+  margin: 35px 0px 0px 100px;
   position:relative
 }
 
 .link-nav {
-font-weight: 600;
+font-weight: 324;
 font-size: 64px;
 line-height: 99px;
 color: #ffffff;
@@ -48,13 +48,13 @@ cursor: pointer;
 .fundo-superacao {
   display: inline-block;
   width: auto;
-  height: 685px;
+  height: 370px;
   margin: 20px 0px 0px 0px; /*POSICIONAMENTO PRO LADO DE FORA*/
 }
 
 h1 {
   border-radius: 30px; /*ARREDONDAR BORDAS*/
-  width: 939px; /*DIMENSÃO DO TEXTO*/
+  width: 507px; /*DIMENSÃO DO TEXTO*/
   filter: drop-shadow(1px 7px 4px rgba(255, 255, 255, 0.25));
   color: #6959cd;
   font-weight: 700; /*ESPESSURA DA FONTE*/
@@ -66,29 +66,30 @@ h1 {
 h2 {
   /*INATIVO POR ENQUANTO.*/
   margin: 30px 0px 20px 915px; /*POSICIONAMENTO PRO LADO DE FORA*/
-  font-weight: 700; /*ESPESSURA DA FONTE*/
+  font-weight: 216; /*ESPESSURA DA FONTE*/
   font-size: 78px; /*TAMANHO DAS LETRAS*/
   color: #6959cd;
 }
 
 h3 {
   width: 1700px; /*DIMENSÃO DO TEXTO*/
-  font-weight: 400; /*ESPESSURA DA FONTE*/
+  font-weight: 416; /*ESPESSURA DA FONTE*/
   font-style: italic;
-  margin: 0px 0px 10px 10px; /*POSICIONAMENTO PRO LADO DE FORA*/
-  font-size: 39px; /*TAMANHO DAS LETRAS*/
+  margin: 0px 0px 10px 0px; /*POSICIONAMENTO PRO LADO DE FORA*/
+  font-size: 19px; /*TAMANHO DAS LETRAS*/
   color: #DCDCDC; /*COR*/
-  font-size: 75px; /*TAMANHO DAS LETRAS*/
-  text-align: left;  
+  font-size: 45px; /*TAMA1HO DAS LETRAS*/
+  text-align: left;
+  padding: 20px;
 }
 
 .opoderdaprogramacao {
   position:relative;
-  width: 2050px; /*DIMENSÃO DO TEXTO*/
-  font-weight: 700; /*ESPESSURA DA FONTE*/
-  font-size: 3em; /*TAMANHO DAS LETRAS*/
+  width: 1092x; /*DIMENSÃO DO TEXTO*/
+  font-weight: 587; /*ESPESSURA DA FONTE*/
+  font-size: 2em; /*TAMANHO DAS LETRAS*/
   color: #000000;
-  margin: 0px 0px 59px 500px;
+
 }
 
 .opoderdaprogramacao::before {
@@ -99,9 +100,8 @@ h3 {
   white-space: nowrap;
   overflow: hidden;
   border-right: 2.5px solid #ffffff;
-  animation: animarElemento 5s linear infinite;
-  filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 15px #fff3);
-  
+  animation: animarElemento 3s linear infinite; /*TEMPO DE IDA DO BRILHO*/
+  filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 15px #fff3); /*INTENSIDADE DO BRILHO*/ 
 }
 
 @keyframes animarElemento {
@@ -109,24 +109,25 @@ h3 {
       width: 0;
   }
   70%,90% {
-    width: 100%;
+    width: 81%; /*DISTANCIA QUE O BRILHO DEVE PERCORRER NA DIV*/
   }
 }
 
 .conteiner-one {
   background-color: #665ae1;
-  width: 3540px; /*DIMENSÃO DO TEXTO*/
-  height: 2130px;
+  width: 1845px; /*AUTURA*/
+  height: 2180px; /*LARGURA*/
   text-align: center;
-  padding: 50px;
+  
 
 }
 
 .main-text {
   display: inline-block;
-  position:relative;
-  width: 500px; /*DIMENSÃO DO TEXTO*/
-  padding: 90px;
+  position: relative;
+  width: 1700px; /*AUTURA*/
+  height: 100px; /*LARGURA*/
+  padding: 20px;
 }
 
 .main-phone {
@@ -140,7 +141,7 @@ h3 {
 }
 
 section {
-  width: 3600px; /*AUTURA*/
+  width: 1892px; /*AUTURA*/
   height: 2200px; /*LARGURA*/
   font-weight: 700; /*ESPESSURA DA FONTE*/
   font-size: 58px; /*TAMANHO DAS LETRAS*/
@@ -180,4 +181,3 @@ footer {
   font-weight: 200; /*ESPESSURA DA FONTE*/
   font-size: 58px; /*TAMANHO DAS LETRAS*/
 }
-
